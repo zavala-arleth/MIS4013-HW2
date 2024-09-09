@@ -17,13 +17,13 @@
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Post Result</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="post.php">Post</a>
+          <a class="nav-link" href="post.php">Home</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="post-result.php">Post Result</a>
+          <a class="nav-link" href="post-result.php">Post</a>
         </li> <li class="nav-item">
           <a class="nav-link" href="get.php">Get</a>
         </li> <li class="nav-item">
