@@ -6,12 +6,12 @@ $pageTitle = "Post Result";
 <?php
 if (isset($_POST['my-name']))   {
   ?>
-  <p>The value sent is </p>
+  <p>The value sent is :</p>
   <?php
     echo $_POST['my-name'];
 } else {
   ?>
-  <p>Nothing posted on this page</p>
+  <p>Nothing posted on this page.</p>
   <?php
 }
 include "footer.php";
