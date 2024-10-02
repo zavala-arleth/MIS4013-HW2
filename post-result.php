@@ -4,15 +4,15 @@ $pageTitle = "Post Result";
 ?>
     <h1>Post Result</h1>
 <?php
-if (isset($_POST['my-name']))   {
-  ?>
-  <p>The value sent is :</p>
-  <?php
-    echo $_POST['my-name'];
+echo getDisplay();
+include "footer.php";
+
+function getDisplay() {
+  if (isset($_POST['my-name']))   {
+ return "<p>The value sent is :</p>" . $_POST['my-name'];
 } else {
-  ?>
-  <p>Nothing posted on this page.</p>
+ return "<p>Nothing posted on this page.</p>";
   <?php
 }
-include "footer.php";
+}
 ?>
